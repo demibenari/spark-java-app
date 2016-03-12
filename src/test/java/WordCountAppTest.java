@@ -1,3 +1,4 @@
+import demibenari.WordCountApp;
 import org.junit.Test;
 
 /**
@@ -8,11 +9,11 @@ import org.junit.Test;
 public class WordCountAppTest {
     @Test
     public void test() {
-        String pathToInputFile = "file:///tmp/file.txt";
-        String pathToOutputFile = "file:///tmp/counts.txt";
-
-        String[] args = { pathToInputFile, pathToOutputFile };
-
-        WordCountApp.main(args);
+//        String pathToInputFile = "file:///tmp/file.txt";
+//        String pathToOutputFile = "file:///tmp/counts.txt";
+//
+//        String[] args = { pathToInputFile, pathToOutputFile };
+//
+//        WordCountApp.main(args);
     }
 }
