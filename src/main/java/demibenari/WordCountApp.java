@@ -1,6 +1,8 @@
-import functions.SplitToWordsFlatMapFunction;
-import functions.WordMapperPairFunction;
-import functions.WordReducerFunction;
+package demibenari;
+
+import demibenari.functions.SplitToWordsFlatMapFunction;
+import demibenari.functions.WordMapperPairFunction;
+import demibenari.functions.WordReducerFunction;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;

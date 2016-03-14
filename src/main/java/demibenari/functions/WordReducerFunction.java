@@ -1,4 +1,4 @@
-package functions;
+package demibenari.functions;
 
 import org.apache.spark.api.java.function.Function2;
 
