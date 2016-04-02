@@ -1,4 +1,5 @@
 import demibenari.LoadPeopleAndSaveToParquetApp;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -6,6 +7,7 @@ import org.junit.Test;
  * Created by Demi Ben-Ari on 4/2/16.
  */
 public class LoadPeopleAndSaveToParquetAppTest {
+    @Ignore
     @Test
     public void test() {
 //        String pathToInputFile = "file:///tmp/file.txt";
