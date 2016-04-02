@@ -15,7 +15,7 @@ import java.util.List;
  *
  * Created by Demi Ben-Ari on 4/2/16.
  */
-public class WordCountAppAndSaveToParquet {
+public class LoadPeopleAndSaveToParquetApp {
     public static void main(String[] args) {
         SparkConf sparkConf = new SparkConf().setAppName("WordCountSaveToParquet")
                                              .setMaster("local[2]");
