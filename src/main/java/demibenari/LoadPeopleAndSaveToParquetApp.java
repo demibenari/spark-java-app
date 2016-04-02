@@ -62,7 +62,8 @@ public class LoadPeopleAndSaveToParquetApp {
         System.out.println("=== Data source: Parquet File ===");
         // DataFrames can be saved as parquet files, maintaining the schema information.
 
-        schemaPeople.write().parquet("file:///tmp/parquet");
+        schemaPeople.write()
+                    .parquet("file:///tmp/parquet");
 
 
         // Read in the parquet file created above.
