@@ -23,7 +23,7 @@ public class WordCountApp {
                                         .setMaster("local[2]");
         JavaSparkContext sc = new JavaSparkContext(conf);
 
-        JavaRDD<String> file = sc.textFile(args[0], 1);
+        JavaRDD<String> file = sc.textFile(args[0]);
 
         JavaPairRDD<String, Integer> counter = file.flatMap(new SplitToWordsFlatMapFunction())
                                                    .mapToPair(new WordMapperPairFunction())
